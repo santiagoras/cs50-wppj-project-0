@@ -12,9 +12,39 @@ form {
 }
 
 .inBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+    border: thin;
+    box-shadow: -1px 0 rgb(212, 212, 212), 0 1px rgb(212, 212, 212), 1px 0 rgb(212, 212, 212), 0 -1px rgb(212, 212, 212);
+    padding: 1px;
     height: 44px;
     border-radius: 44px;
     width: 60%;
+}
+
+.inBox:hover {
+    border-style: hidden;
+    box-shadow: 0 0 4px gray;
+}
+
+.boxsvg {
+    align-items: left;
+    padding: 1px;
+    color: gray;
+    height: 42px;
+    width: 10%;
+}
+
+.boxtxt {
+    align-items: right;
+    padding: 1px;
+    height: 38px;
+    border-style: hidden;
+    font-size: 16px;
+    outline: none;
+    width: 95%;
 }
 
 .sbtn {
