@@ -7,6 +7,12 @@ form {
     padding: 16px;
 }
 
+svg {
+    align-items: center;
+    padding: 25%;
+    height: 50%;
+}
+
 .logBar {
     text-align: right;
 }
@@ -17,6 +23,7 @@ form {
     flex-wrap: nowrap;
     margin: auto;
     border: thin;
+    align-content: center;
     box-shadow: -1px 0 rgb(212, 212, 212), 0 1px rgb(212, 212, 212), 1px 0 rgb(212, 212, 212), 0 -1px rgb(212, 212, 212);
     padding: 1px;
     height: 44px;
@@ -34,12 +41,12 @@ form {
     padding: 1px;
     color: gray;
     height: 42px;
-    width: 10%;
+    width: 5%;
 }
 
 .boxtxt {
-    align-items: right;
-    padding: 1px;
+    align-items: left;
+    padding: 2px;
     height: 38px;
     border-style: hidden;
     font-size: 16px;
